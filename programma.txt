@@ -1,0 +1,82 @@
+Ciao
+
+Proposta per 2 sessioni dedicate al Raspberry Pi.
+
+1 - Tecnica: dedicato a chi usa già linux con java e/o php e vuole capire come poter usare Raspberry Pi, come ottimizzarne la configurazione su questo HW.
+2 - Per novizi: dedicato a chi usa linux da poco, vuole capire come usare Raspberry e coa ci può fare
+
+Per quanto mi riguarda, possiamo scegliere fra l'una e l'altra, in base all'interesse dei soci del Linox.
+Ho tutto pronto per la sessione tecnica, per quella per novizi, posso prendere parte di quanto descritto nella prima sessione ed aggiungere alcune slide di completamento
+
+Fatemi sapere per quale intervento optate.
+
+
+
+Di seguito un po' di materiale scritto e liberamente utilizzabile per la presentazione degli interventi e di cos'è Raspberry Pi
+
+
+Cos'è Raspberry Pi (fonte wikipedia)
+------------------------------------
+Il Raspberry Pi è un single-board computer (un calcolatore implementato su una sola scheda elettronica) sviluppato nel Regno Unito dalla Raspberry Pi Foundation. 
+Il suo lancio al pubblico è avvenuto alla fine del mese di febbraio 2012. 
+Attualmente, viene venduto in due versioni, al prezzo di 25 e 35 dollari statunitensi.
+
+L'idea di base è la realizzazione di un dispositivo economico, concepito per stimolare l'insegnamento di base dell'informatica e della programmazione nelle scuole.
+
+Il progetto ruota attorno a un System-on-a-chip (SoC) Broadcom BCM2835, che incorpora un processore ARM1176JZF-S a 700 MHz, una GPU VideoCore IV, e 256 o 512 Megabyte di memoria. 
+Il progetto non prevede né hard disk né una unità a stato solido, affidandosi invece a una scheda SD per il boot e per la memoria non volatile.
+
+La scheda è stata progettata per ospitare sistemi operativi basati su un kernel Linux o RISC OS. 
+È assemblata fisicamente in Galles, nel Sony UK Technology Centre.
+
+
+
+
+
+Descrizione Sessione Tecnica                
+----------------------------
+Dedicata a chi usa già Linux come ambiente di sviluppo per applicazioni JAVA e PHP e vuole vedere Raspberry Pi per capire quanto del proprio lavoro è utilizzabile all'interno di Raspberry Pi
+
+Argomenti trattati
+- Cos'è Raspberry Pi
+	- Versione attuale e versione "Compute Module"
+- Cosa ci possiamo fare
+	- Sistemi operativi installabili: raspbian, RiscOS etc
+	- Raspbian Base e Raspbian Server
+- Alcune ottimizzazioni del sistema di base
+	- Overclock Hardware
+	- Rimozione servizi esistenti
+- PHP su Raspberry Pi
+	- Installazione stack LAMP
+	- Installazione NGINX, Monkey, Lighttpd
+	- Configurazione di un cluster haproxy/(apache|nginx|monkey|Lighttpd)
+	- Comparazione prestazionale dei vari server web
+- Java su Raspberry Pi
+	- Installazione java su raspbian
+	- Comparazioni prestazionali
+- Raspberry Pi Emulato
+	- Utilizzo tramite QEMU
+
+Slide: http://www.slideshare.net/matteobaccan/matteo-baccan-raspberry-pi-codemotion-roma-2014-33439689
+Tempo: almeno 1h
+
+
+
+
+Descrizione Sessione per Beginner
+---------------------------------
+Dedicato a chi non ha mai visto Raspberry Pi e vuole capire quello che è possibile fare.
+
+- Cos'è Raspberry Pi
+	- Versione attuale e versione "Compute Module"
+	- Specifiche tecniche: periferiche utilizzabili e configurazioni
+- Cosa ci possiamo fare
+	- Sistemi operativi installabili: raspbian, RiscOS etc
+- Utilizzo come stazione multimediale 
+	- Installazione RaspBMC e uso come player multimediale
+- Utilizzo come server web
+	- Installazione e utilizzo di una architettura LAMP 
+
+Slide: da preparare, prendedone alcune dalla sessione tecnica e arricchendo con altre più specifiche
+Tempo: almeno 1h
+
